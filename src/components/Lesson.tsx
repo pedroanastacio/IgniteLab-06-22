@@ -30,10 +30,8 @@ export function Lesson(props: LessonProps) {
       <span className="text-gray-300">{availableDateFormatted}</span>
 
       <div className="flex flex-row relative">
-        {isActiveLesson ? (
+        {isActiveLesson && (
           <div className="bg-yellow-500 absolute rounded-bl-sm w-[13.75px] h-[13.75px] left-[-6px] top-[calc(50%_-_13.75px/2_+_7.38px)] rotate-45 border-b border-l border-gray-500 group-hover:border-yellow-500" />
-        ) : (
-          false
         )}
         <div
           className={classnames(
