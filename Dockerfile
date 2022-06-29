@@ -2,8 +2,6 @@ FROM node:18-alpine
 
 WORKDIR /usr/home/app
 
-COPY package*.json ./
-
 USER node
 
 COPY . .
