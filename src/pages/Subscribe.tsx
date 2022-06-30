@@ -26,7 +26,8 @@ export function Subscribe() {
   }, [name, email]);
 
   return (
-    <div className="min-h-screen bg-blur bg-cover bg-no-repeat filter flex flex-col items-center">
+    <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex items-center">
+  <div className="flex-1 bg-react bg-top-4 bg-no-repeat flex flex-col items-center">
       <div className="flex items-center justify-between w-full max-w-[1100px] mt-20 mx-auto">
         <div className="max-w-[640px]">
           <Logo />
@@ -81,6 +82,7 @@ export function Subscribe() {
         className="mt-10"
         alt="Code Mockup"
       />
+      </div>
     </div>
   );
 }
