@@ -68,7 +68,7 @@ export function VideoPlayer(props: VideoPlayerProps) {
             )}
           </div>
 
-          <div className="flex flex-col sm:flex-row md:flex-col gap-4 sm:gap-8 w-full md:w-fit">
+          <div className="flex flex-col sm:flex-row md:flex-col gap-4 w-full md:w-fit">
             <a
               href=""
               className="p-4 text-sm text-gray-600 bg-yellow-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-yellow-700 transition-colors sm:flex-1"
