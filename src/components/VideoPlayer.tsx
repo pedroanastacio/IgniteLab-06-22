@@ -23,8 +23,10 @@ export function VideoPlayer(props: VideoPlayerProps) {
 
   if (!data || !data.lesson) {
     return (
-      <div className="flex-1">
-        <p>...Carregando</p>
+      <div className="flex-1 flex items-center justify-center opacity-70">
+        <span className="flex w-6 h-6 rounded-full bg-yellow-300">
+          <span className="animate-ping rounded-full h-6 w-6 bg-yellow-700"></span>
+        </span>
       </div>
     );
   }
